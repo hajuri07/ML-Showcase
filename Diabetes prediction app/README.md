@@ -23,31 +23,21 @@ Environment	kaggle Notebook + VS Code (Anaconda)
 📊 Model Development
 
 1️⃣ Data Understanding & Cleaning
-
 Used Pima Indians Diabetes Dataset from Kaggle
-
 Checked null values, outliers, and feature distributions
-
 Scaled features using StandardScaler
 
 2️⃣ EDA (Exploratory Data Analysis)
-
 Pairplots to visualize feature relationships
-
 Observed that higher glucose and BMI correlated with diabetes
 
 3️⃣ Model Training
-
 Trained and compared:
-
 Logistic Regression
-
 Random Forest
-
 XGBoost
 
 4️⃣ Model Evaluation
-
 Model	Accuracy	F1-Score	Precision	Recall
 Logistic Regression	0.753	0.661	0.649	0.673
 Random Forest	0.734	0.631	0.625	0.636
@@ -57,9 +47,7 @@ XGBoost	0.708	0.615	0.581	0.654
 (simple yet strong for this dataset)
 
 5️⃣ Model Saving
-
 Combined StandardScaler and best model into one bundle:
-
 obj = {"scaler": scaler, "model": model}
 joblib.dump(obj, "scaler_model_bundle.joblib")
 
