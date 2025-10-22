@@ -38,3 +38,11 @@ Clone the repository:
 ```bash
 git clone https://github.com/<your-username>/ML-Showcase.git
 cd ML-Showcase
+
+python -m venv env
+# For Mac/Linux
+source env/bin/activate
+# For Windows
+env\Scripts\activate
+pip install -r requirements.txt
+<p align="center"> Made with ❤️ by <b>Ibrahim Hajuri</b><br> <a href="https://github.com/yourusername"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/yourprofile/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a> </p> ```
