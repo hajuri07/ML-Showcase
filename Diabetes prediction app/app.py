@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load your combined scaler + model bundle
-bundle = joblib.load("scaler_model_bundle.joblib")
+bundle = joblib.load("best_rf_pipeline.pkl")
 scaler = bundle["scaler"]
 model = bundle["model"]
 
@@ -40,3 +40,4 @@ if st.button("🔮 Predict"):
         st.error(f"⚠️ Model predicts: **Diabetic** (Probability: {probability:.2f})")
     else:
         st.success(f"✅ Model predicts: **Non-Diabetic** (Probability: {probability:.2f})")
+
